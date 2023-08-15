@@ -4,20 +4,64 @@
 #include <string.h>
 
 
-int main()
-{
-	int a ;
-	printf("请输入年份");
-	scanf("%d", &a);
-	if (a % 400 == 0 || (a%4==0 && a%100!=0))
-	{
-		printf("yes\n");
-	}
-	else
-	{
-		printf("no\n");
-	}
-}
+
+
+
+
+
+
+
+//int main()
+//{
+//	printf("number:%-10d,score:%.3f",34, 95.5);
+//}
+
+
+
+//int main()
+//{
+//	int i;
+//	char c;
+//	float f;
+//	printf("请输入学号：");
+//	scanf("%d", &i);
+//	printf("请输入性别：");
+//	scanf(" %c", &c);
+//	printf("请输入分数：");
+//	scanf("%f", &f);
+//	printf("学号：%d\n性别：%c\n分数：%f\n", i, c, f);
+//	return 0;
+//}
+
+
+
+
+//int main()
+//{
+//	int i;
+//	while (rewind(stdin),scanf("%d", &i)!=EOF)
+//	{
+//		printf("i=%d\n", i);
+//	}
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	int a ;
+//	printf("请输入年份");
+//	scanf("%d", &a);
+//	if (a % 400 == 0 || (a%4==0 && a%100!=0))
+//	{
+//		printf("yes\n");
+//	}
+//	else
+//	{
+//		printf("no\n");
+//	}
+//}
 
 
 
