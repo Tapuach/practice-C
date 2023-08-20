@@ -2,22 +2,74 @@
 
 #include <stdio.h>
 #include <string.h>
-
-int main()
-{
-	int a = 8;
-	if (3 < a && a < 10)
-	{
-		printf("a in 3-10");
-	}
-	else
-	{
-		printf("sorry");
-	}
+#include <stdlib.h>
 
 
-	float f = 234.56;
-}
+
+
+
+//int main()
+//{
+//	int a;
+//	printf("请输入65-122之间的数字：");
+//	scanf("%d", &a);
+//	if (a >= 65 && a <= 122)
+//	{
+//		printf("%c", a+32);
+//	}
+//	else
+//	{
+//		printf("对不起您的输入有误！\n");
+//	}
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	char c;
+//	while((c = getchar()) != EOF)
+//	{
+//		printf("%c", c);
+//	}
+//}
+
+
+
+//int main()
+//{
+//	int i, j = 5;
+//	i = !!j;
+//	printf("i=%d", i);
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	int a = 8;
+//	if (3 < a && a < 10)
+//	{
+//		printf("a in 3-10\n");
+//	}
+//	else
+//	{
+//		printf("sorry");
+//	}
+//
+//
+//	float f = 234.56;
+//	if (f-234.56>-0.0001&&f-234.56<0.0001)
+//	{
+//		printf("yes");
+//	}
+//	else
+//	{
+//		printf("no");
+//	}
+//}
 
 
 
@@ -89,6 +141,8 @@ int main()
 //	}
 //	return 0;
 //}
+
+
 
 
 
