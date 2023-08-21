@@ -4,6 +4,124 @@
 #include <string.h>
 #include <stdlib.h>
 
+//int main()
+//{
+//	int b,a = 1;
+//	b = a % 10;
+//	printf("%d", b);
+//}
+
+//数字反转判断
+int main()
+{
+	int a, b, tmp, x;
+	scanf("%d", &a);
+	x = a;
+	b = 0;
+	while (a)
+	{
+		tmp = a % 10;
+		b = b * 10 + tmp;
+		a = a / 10;
+	}
+	if (x == b)
+	{
+		printf("yes\n");
+	}
+	else 
+	{
+		printf("no\n");
+	}
+}
+
+//int main()
+//{
+//	int y,f,z;
+//	printf("请输入对称数：");
+//	scanf("%d", &y);
+//	f = 0;
+//		while (y)
+//		{
+//			z = y % 10;
+//			f = f * 10 + z;
+//			y = y / 10;
+//		}
+//		if (y == f)
+//		{
+//			printf("yes\n");
+//		}
+//		else
+//		{
+//			printf("no\n");
+//		}
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	int x, y;
+//	for (x = 1, y = 0; x <= 100; x++)
+//	{
+//		if (x%2==0)
+//		{
+//			continue;
+//		}
+//		y = y + x;
+//	}
+//	printf("%d\n%d", y,x);
+//}
+
+
+
+//int main()
+//{
+//	int x=1, y=0;
+//	while (x <= 100)
+//	{
+//		y = y + x;
+//		x++;
+//	}
+//	printf("%d", y);
+//}
+
+
+
+//int main()
+//{
+//	int i;
+//	while (scanf("%d", &i) != EOF)
+//	{
+//		
+//		if (i > 0)
+//		{
+//			printf("%d bigger than 0\n",i);
+//		}
+//		else
+//		{
+//			printf("%d not bigger than 0\n",i);
+//		}
+//	}
+//}
+
+
+
+
+//int main()
+//{
+//	int y;
+//	printf("请输入年份：");
+//	scanf("%d", &y);
+//	if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0)
+//	{
+//		printf("%d是闰年", y);
+//	}
+//	else
+//	{
+//		printf("不是闰年");
+//	}
+//}
 
 
 
