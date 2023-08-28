@@ -4,6 +4,160 @@
 #include <string.h>
 #include <stdlib.h>
 
+int main()
+{
+
+}
+
+
+
+//int main()
+//{
+//	{
+//		int n, a[100];
+//		scanf("%d", &n);
+//		for (int i = 0; i < n; i++)
+//		{
+//			scanf("%d", &a[i]);
+//		}
+//		int c = 0;
+//		for (int i = 0; i < n; i++)
+//		{
+//			if (a[i] == 2)
+//			{
+//				c++;
+//			}
+//		}
+//		printf("%d", c);
+//	}
+//}
+
+
+
+//int main()
+//{
+//	int a, b, c, d, e = 0;
+//	for (a = 1; a <= 9; a++)
+//	{
+//		for (b = 1; b <= 19; b++)
+//		{
+//			for (c = 1; c <= 40; c++)
+//			{
+//				for (d = 1; d <= 40; d++)
+//				{
+//					if (a * 10 + b * 5 + c * 2 + d == 100 && a + b + c + d == 40)
+//					{
+//						e++;
+//					}
+//				}
+//			}
+//		}
+//	}
+//	printf("%d\n", e);
+//	return 0;
+//}
+
+
+
+
+//int main()
+//{
+//	int n,x=1,y=1;
+//	scanf("%d", &n);
+//	while (n>=x)
+//	{
+//		y = x * y;
+//		x++;
+//	}
+//	printf("%d", y);
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	char c[20];
+//	int i = 5;
+//	int* p=&i;
+//	gets(c);
+//	puts(c);
+//	printf("i=%d\n", i);
+//	printf("*p=%d\n", *p);
+//}
+
+
+//int main()
+//{
+//	char c[20] = "wangdao";
+//	printf("c内字符长度：%d\n", strlen(c));
+//	char d[20];
+//	strcpy(d, "study");
+//	puts(d);
+//	int a = strcmp("hello", "how");
+//	printf("两个字符比较后结果：%d\n", a);
+//	strcat(c, d);
+//	puts(c);
+//}
+
+
+//int main()
+//{
+//	char c[20];
+//	gets(c);
+//	puts(c);
+//	return 0;
+//}
+
+
+
+//void print(char x[])
+//{
+//	int i = 0;
+//	while (x[i] != 0)
+//	{
+//		//x[0] = x[0] - 32;
+//		printf("%c", x[i]);
+//		i++;
+//	}
+//	x[0] = x[0] - 32;
+//	printf("\n");
+//}
+//int main()
+//{
+//	char c[10] = "hello";
+//	print(c);
+//	printf("%s", c);
+//	return 0;
+//}
+
+
+
+//void print(int x[],int len)
+//{
+//	int i;
+//	for (i = 0; i < len;i++)
+//	{
+//		printf("a[%d]=%d\n", i, x[i]);
+//	}
+//	x[1] = 9;
+//}
+//int main()
+//{
+//	int j = 10;
+//	int a[10] = {1,2,3,4,5};
+//	char x[20] = { 0 };
+//	char y[20];
+//	scanf("%s%s", &x,y);
+//	printf("%s-----%s\n", x,y);
+//	//printf("%d", a[5]);
+//	print(a,7);
+//	return 0;
+//}
+
+
+
+
 //int main()
 //{
 //	int b,a = 1;
@@ -12,27 +166,28 @@
 //}
 
 //数字反转判断
-int main()
-{
-	int a, b, tmp, x;
-	scanf("%d", &a);
-	x = a;
-	b = 0;
-	while (a)
-	{
-		tmp = a % 10;
-		b = b * 10 + tmp;
-		a = a / 10;
-	}
-	if (x == b)
-	{
-		printf("yes\n");
-	}
-	else 
-	{
-		printf("no\n");
-	}
-}
+//int main()
+//{
+//	int a, b, tmp, x;
+//	scanf("%d", &a);
+//	x = a;
+//	b = 0;
+//	while (a)
+//	{
+//		tmp = a % 10;
+//		b = b * 10 + tmp;
+//		a = a / 10;
+//	}
+//	if (x == b)
+//	{
+//		printf("yes\n");
+//	}
+//	else 
+//	{
+//		printf("no\n");
+//	}
+//	return 0;
+//}
 
 //int main()
 //{
@@ -220,7 +375,6 @@ int main()
 //	putchar('\n');
 //	system("pause");
 //}
-
 
 
 
