@@ -4,10 +4,61 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main()
-{
 
+//Ö¸ÕëÆ«ÒÆ
+int  main()
+{
+	int a[5] = { 1,2,3,4,5 };
+	int* p;
+	p = a;
+	printf("*p=%d\n",*p);
+	for (int i = 0; i < 5; i++)
+	{
+		printf("")
+	}
 }
+
+
+//Ö¸Õë´«µİ
+//void change(int *j)
+//{
+//	*j = 5;
+//}
+//int main()
+//{
+//	int i = 10;
+//	printf("%d\n", i);
+//	change(&i);
+//	printf("%d\n", i);
+//}
+
+
+
+//int main()
+//{
+//	char c[100], d[100];
+//	gets(c);
+//	int i, j;
+//	for (i = strlen(c) - 1, j = 0; i >= 0; i--, j++)
+//	{
+//		d[j] = c[i];
+//	}
+//	d[j] = '\0';
+//	int t = strcmp(c, d);
+//	if (t < 0)
+//	{
+//		printf("%d", -1);
+//	}
+//	else if (t > 0)
+//	{
+//		printf("%d", 1);
+//	}
+//	else
+//	{
+//		printf("%d", 0);
+//	}
+//	return 0;
+//}
 
 
 
