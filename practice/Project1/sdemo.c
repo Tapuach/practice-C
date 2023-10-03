@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 
+
 //Ö¸ÕëÆ«ÒÆ
 int  main()
 {
@@ -14,8 +15,9 @@ int  main()
 	printf("*p=%d\n",*p);
 	for (int i = 0; i < 5; i++)
 	{
-		printf("")
+		printf("%d\n", *(p + i));
 	}
+	return 0;
 }
 
 

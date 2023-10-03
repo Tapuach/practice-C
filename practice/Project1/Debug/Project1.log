@@ -1,3 +1,3 @@
 ﻿  sdemo.c
-C:\Users\Orion\OneDrive - haitian\桌面\数据库\C语言\practice\Project1\sdemo.c(14,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“int *”
+C:\Users\Orion\OneDrive - haitian\桌面\数据库\C语言\practice\Project1\sdemo.c(14,4): warning C4047: “=”:“int *”与“int (*)[5]”的间接级别不同
   Project1.vcxproj -> C:\Users\Orion\OneDrive - haitian\桌面\数据库\C语言\practice\Debug\test.exe
