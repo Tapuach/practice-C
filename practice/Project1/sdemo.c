@@ -6,19 +6,53 @@
 
 
 
-//指针偏移
-int  main()
+//指针与一维数组
+void change(char d[])
 {
-	int a[5] = { 1,2,3,4,5 };
-	int* p;
-	p = a;
-	printf("*p=%d\n",*p);
-	for (int i = 0; i < 5; i++)
-	{
-		printf("%d\n", *(p + i));
-	}
+	d[0];
+}
+int main()
+{
+	char c[10] = "hello";
+	change(c);
 	return 0;
 }
+
+
+
+
+////指针的自增自减运算符
+//int main()
+//{
+//	int a[3] = { 2,7,8 };
+//	int* p;
+//	int j;
+//	p = a;
+//	j = *p++;//j=*p;p++
+//	printf("a[0]=%d,j=%d,*p=%d\n", a[0], j, *p);
+//	j = p[0]++;//j=p[0];p[0]++
+//	printf("a[0]=%d,j=%d,*p=%d\n", a[0], j, *p);
+//	return 0;
+//}
+
+
+
+
+////指针偏移
+//int  main()
+//{
+//	int a[5] = { 1,2,3,4,5 };
+//	int* p;
+//	p = a;
+//	printf("*p=%d\n",*p);
+//	for (int i = 0; i < 5; i++)
+//	{
+//		printf("%d\n", *(p + i));
+//	}
+//	return 0;
+//}
+
+
 
 
 //指针传递
