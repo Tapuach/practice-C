@@ -5,18 +5,68 @@
 #include <stdlib.h>
 
 
+////栈空间与堆空间的差异
+//char* print_stack()
+//{
+//	char c[17] = "I am print_stack";
+//	puts(c);
+//	return c;
+//}
+//
+//char* print_malloc()
+//{
+//	char* p = (char*)malloc(30);
+//	strcpy(p, "I am print_malloc");
+//	puts(p);
+//	return p;
+//}
+//
+//int main()
+//{
+//	char* p;
+//	p = print_stack();//栈空间会随着函数执行结束而释放
+//	//puts(p);
+//	p = print_malloc;//堆空间不会虽子函数的结束而释放，必须自己free
+//	puts(p);
+//	return 0;
+//}
 
-//指针与一维数组
-void change(char d[])
-{
-	d[0];
-}
-int main()
-{
-	char c[10] = "hello";
-	change(c);
-	return 0;
-}
+
+
+
+////指针与动态内存申请
+//int main()
+//{
+//	int i;
+//	scanf("%d", &i);
+//	char* p;
+//	char* p1;
+//	p = (char*)malloc(i);//malloc 申请空间的单位是字节
+//	strcpy(p, "malloc success"); 
+//	puts(p);//打印
+//	free(p);//释放空间
+//	p = NULL;//如果不把p的值为NULL，p为野指针
+//	return 0;
+//}
+
+
+
+
+////指针与一维数组
+////数组名作为实参传递给予子函数时，是弱化为指针的
+//void change(char *d)
+//{
+//	*d='H';
+//	d[1] = 'E';
+//}
+//int main()
+//{
+//	char c[10] = "hello";
+//	puts(c);
+//	change(c);
+//	puts(c);
+//	return 0;
+//}
 
 
 
