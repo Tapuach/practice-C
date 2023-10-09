@@ -5,6 +5,77 @@
 #include <stdlib.h>
 
 
+////递归调用(函数自己调用自己）
+//int f(int n)
+//{
+//	if (1 == n)
+//	{
+//		return 1;
+//	}
+//	return n * f(n - 1);
+//}
+//
+//int main()
+//{
+//	int n = 5;
+//	int result = f(n);
+//	printf("result=%d\n", result);
+//	return 0;
+//}
+
+
+
+
+//int i = 10;//全局变量，在函数外定义的变量叫全局变量
+//
+//void print(int a)
+//{
+//	printf("print i=%d\n", i);
+//}
+//
+//int main()
+//{
+//	printf("mian i=%d\n", i);
+//	i = 5;
+//	print(i);
+//	return 0;
+//}
+
+
+
+
+
+////字符指针与字符数组的初始化
+//int main()
+//{
+//	char* p = "hello";
+//	char c[] = "hello";
+//	p[0] = 'H';//不可对常量区数据进行修改
+//	c[0] = 'H';
+//	printf("p[0]=%c\n", p[0]);
+//	printf("c[0]=%c\n", c[0]);
+//	p = "world";//将字符串world的地址赋给p
+//	//c = "world";//非法
+//	puts(p);
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int a;
+//	char* p;
+//	scanf("%d", &a);
+//	p = (char*)malloc(a);
+//	char b;
+//	scanf("%c", &b);
+//	gets(p);
+//	puts(p);
+//	return 0;
+//}
+
+
+
 ////栈空间与堆空间的差异
 //char* print_stack()
 //{
