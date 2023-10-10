@@ -5,6 +5,119 @@
 #include <stdlib.h>
 
 
+
+//结构体指针
+struct student
+{
+	int num;
+	char name[20];
+	char sex;
+};
+
+int main()
+{
+	struct student s = { 1001,"lele","m" };
+	struct student* p;
+	p = &s;
+	printf("%d %s %c\n", (*p).num, (*p).name, (*p).sex);
+	printf("%d %s %c\n", p->num, p->name, p->sex);//指针的成员选择
+	//结构体初始化
+	struct student sarr[3] = { 1001,"lele",'m',1005,"lili",'f',1007,"ouou",'m' };
+	p = sarr;
+	int num;
+	printf("---------------------\n");
+	num = p->num++;
+	printf("num=%d p->num=%d\n", num, p->num);
+	num = p++->num;
+	printf("num=%d p->num=%d\n", num, p->num);
+	return 0;
+}
+
+
+
+
+////结构体
+////结构体所占空间是68个字节，因为存在对齐，对齐的目的是为了提高CPU访问内存的效率
+//struct student
+//{
+//	int num;
+//	char name[20];
+//	char sex;
+//	int age;
+//	float score;
+//	char addr[30];
+//};
+//
+//int main()
+//{
+//	struct student s = { 1001,"lele",'m',18,59.5,"ShangHai" };
+//	struct student sarr[3];
+//	printf("%d %s %c %d %5.2f %s\n", s.num,s.name,s.sex,s.age,s.score,s.addr);
+//	int i;
+//	for (i = 0; i < 3; i++)
+//	{
+//		scanf("%d%s %c%d%f%s\n", &sarr[i].num, &sarr[i].name, &sarr[i].sex, &sarr[i].age, &sarr[i].score, &sarr[i].addr);		
+//	}
+//	for (i = 0; i < 3; i++)
+//	{
+//		printf("%d %s %c %d %f %s\n", sarr[i].num, sarr[i].name, sarr[i].sex, sarr[i].age, sarr[i].score, sarr[i].addr);
+//	}
+//	return 0;
+//}
+
+
+
+////走台阶
+//int step(int x)
+//{
+//	if (x == 1 || x == 2)
+//	{
+//		return x;
+//	}
+//	return step(x - 1) + step(x - 2);
+//}
+//
+//int main()
+//{
+//	int i,g;
+//	scanf("%d", &i);
+//	g=step(i);
+//	printf("fangfa=%d", g);
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int i;
+//	char c;
+//	char* p;
+//	scanf("%d", &i);
+//	p = (char*)malloc(i);
+//	scanf("%c", &c);//消除\n
+//	gets(p);
+//	puts(p);
+//	return 0;
+//}
+
+
+//void change(int* x)
+//{
+//	*x = *x / 2;
+//	//return x;
+//}
+//
+//int main()
+//{
+//	int i;
+//	scanf("%d", &i);
+//	change(&i);
+//	printf("i=%d", i);
+//	return 0;
+//}
+
+
+
 ////递归调用(函数自己调用自己）
 //int f(int n)
 //{
