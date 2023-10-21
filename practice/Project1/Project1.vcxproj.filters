@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sdemo.c">
+    <ClCompile Include="sdemo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="exturn.cpp">

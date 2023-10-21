@@ -1,3 +1,2 @@
-﻿  sdemo.c
-C:\Users\Orion\OneDrive - haitian\桌面\数据库\C语言\practice\Project1\sdemo.c(19,17): warning C4047: “初始化”:“char”与“char [2]”的间接级别不同
-  Project1.vcxproj -> C:\Users\Orion\OneDrive - haitian\桌面\数据库\C语言\practice\Debug\test.exe
+﻿  sdemo.cpp
+  Project1.vcxproj -> E:\桌面文件\数据库\C语言\practice\Debug\test.exe

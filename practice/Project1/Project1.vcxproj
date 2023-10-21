@@ -131,7 +131,7 @@
     <ClCompile Include="exturn.cpp" />
     <ClCompile Include="func.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="sdemo.c" />
+    <ClCompile Include="sdemo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h" />
