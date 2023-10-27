@@ -5,6 +5,13 @@
 #include <stdlib.h>
 
 
+////Ë³Ðò±í
+//#define MaxSize 50
+//
+//typedef struct {
+//	ElemType data[MaxSize];
+//	int len;
+//}SqList;
 
 
 
