@@ -27,7 +27,7 @@
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="kim.cpp">
+    <ClCompile Include="form.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="algorithm.cpp">
