@@ -1,7 +1,45 @@
-#include <stdio.h>
-#include <stdlib.h>
+#define _CRT_SECURE_NO_WARNINGS
 
-//#define MaxSize 50
+#include<stdio.h>
+#include<stdlib.h>
+
+////中级day1作业
+//struct student {
+//	int num;
+//	char name[20];
+//	char sex;
+//};//声明一个结构体类型
+//
+//int main()
+//{
+//	struct student s;
+//	scanf("%d%s %c",&s.num,&s.name,&s.sex);
+//	printf("%d %s %c\n", s.num, s.name, s.sex);
+//	return 0;
+//}
+
+
+
+////中级day2作业
+//void mod_pointer(char*& p)
+//{
+//	p = (char*)malloc(100);
+//	fgets(p, 100, stdin);//如果使用fgets传入的是一个指针变量，中间参数是指针指向的空间大小
+//
+//}
+//
+//int main()
+//{
+//	char* p;
+//	mod_pointer(p);
+//	puts(p);
+//	return 0;
+//}
+
+
+
+////中级day3作业
+//#define MaxSize 100
 //
 //typedef int ElemType;
 ////静态分配
@@ -38,18 +76,6 @@
 //	return true;
 //}
 //
-////查找成功，返回位置，位置从1开始，查找失败，返回0
-//int LocateElem(SqList L, ElemType e)
-//{
-//	int i;
-//	for(i=0;i<L.length;i++)//遍历顺序表
-//		if (L.data[i] == e)
-//		{
-//			return i + 1;//(i+1)就是元素在顺序表中的位置
-//		}
-//	return 0;
-//}
-//
 ////打印顺序表
 //void PrintList(SqList& L)
 //{
@@ -59,56 +85,48 @@
 //	}
 //	printf("\n");
 //}
+////要不要加引用，就是看是不是在子函数中去改变主函数中对应的变量，要改，就要加
 //
 //
 //int main()
 //{
 //	SqList L;//顺序表的名称
-//	bool ret;//查看返回值，布尔类型只能是true，或者false
+//	bool ret_1;//查看返回值，布尔类型只能是true，或者false
+//	bool ret_2;
 //	ElemType del;//用来存储要删除的元素
-//	
+//	int add_p;
+//	int del_p;
 //	//首先手动在顺序表中赋值
+//
 //	L.data[0] = 1;
 //	L.data[1] = 2;
 //	L.data[2] = 3;
 //	L.length = 3;//总计三个元素
 //	
 //	//插入
-//	ret = ListInsert(L,2,60);//往第二个位置插入60这个元素
-//	if (ret)
+//	scanf("%d", &add_p);//读取添加的元素值
+//	ret_1 = ListInsert(L,2,add_p);//往第二个位置插入60这个元素
+//	if (ret_1)
 //	{
-//		printf("插入成功\n");
+//		printf("succeed\n");
 //		PrintList(L);//打印成功后的顺序表
 //	}
 //	else
 //	{
-//		printf("插入失败请重试\n");
+//		printf("false\n");
 //	}
 //
 //	//删除
-//	ret = ListDelete(L, 1, del);//删除的一个位置的元素并把元素值输出
-//	if (ret)
+//	scanf("%d", &del_p);//读取删除元素的位置
+//	ret_2 = ListDelete(L,del_p, del);//删除的一个位置的元素并把元素值输出
+//	if (ret_2)
 //	{
-//		printf("删除成功\n");
-//		printf("删除的元素值为 %d\n", del);
+//		printf("succeed\n");
 //		PrintList(L);
 //	}
 //	else
 //	{
-//		printf("删除失败\n");
-//	}
-//
-//	//查找
-//	int elem_pos;
-//	elem_pos = LocateElem(L, 60);
-//	if (elem_pos)
-//	{
-//		printf("查找成功\n");
-//		printf("元素位置为 %d\n", elem_pos);//打印元素位置
-//	}
-//	else
-//	{
-//		printf("查找失败\n");
+//		printf("false\n");
 //	}
 //	return 0;
 //}

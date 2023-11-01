@@ -30,7 +30,7 @@
     <ClCompile Include="form.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="algorithm.cpp">
+    <ClCompile Include="honework.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
