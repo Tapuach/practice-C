@@ -1,2 +1,16 @@
-﻿  form.cpp
-  Project1.vcxproj -> E:\桌面文件\数据库\C语言\practice\Debug\test.exe
+﻿  function.h
+  sdemo.cpp
+  tree.cpp
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(10,2): error C2065: “BiTree”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(10,9): error C2146: 语法错误: 缺少“;”(在标识符“pnew”的前面)
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(10,9): error C2065: “pnew”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(13,2): error C2065: “BiTree”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(13,9): error C2146: 语法错误: 缺少“;”(在标识符“tree”的前面)
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(13,9): error C2065: “tree”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,2): error C2065: “ptag_t”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,9): error C2146: 语法错误: 缺少“;”(在标识符“phead”的前面)
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,9): error C2065: “phead”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,23): error C2065: “ptail”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,37): error C2065: “listpnew”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,47): error C2065: “pcur”: 未声明的标识符
+  正在生成代码...

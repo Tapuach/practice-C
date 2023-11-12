@@ -18,9 +18,6 @@
     <ClCompile Include="sdemo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="exturn.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="func.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -33,9 +30,15 @@
     <ClCompile Include="honework.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
