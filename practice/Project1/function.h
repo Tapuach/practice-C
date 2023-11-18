@@ -1,4 +1,7 @@
 #pragma once
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 typedef char BiElemType;
 typedef struct BiTNode {
@@ -21,3 +24,21 @@ typedef struct {
 }SqStack;
 void InitStack(SqStack& S);
 bool StackEmpty(SqStack& S);
+bool Push(SqStack& S, ElemType x);
+bool Pop(SqStack& S, ElemType& x);
+bool GetTop(SqStack& S, ElemType& x);
+
+//队列相关数据结构
+typedef struct LinkNode {
+	ElemType data;
+	struct LinkNode* next;
+}LinkNode;
+
+typedef struct {
+	LinkNode* front, * rear;
+}LinkQueue;
+
+void InitQueue(LinkQueue& Q);
+bool IsEmpty(LinkQueue& Q);
+void EnQueue(LinkQueue& Q, ElemType x);
+bool DeQueue(LinkQueue& Q, ElemType& x);

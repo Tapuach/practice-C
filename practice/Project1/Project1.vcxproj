@@ -71,6 +71,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>E:\桌面文件\数据库\C语言\practice\Project1;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -132,8 +135,12 @@
     <ClCompile Include="func.c" />
     <ClCompile Include="form.cpp" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="queue.cpp" />
     <ClCompile Include="sdemo.cpp" />
+    <ClCompile Include="stack.cpp" />
     <ClCompile Include="tree.cpp" />
+    <ClCompile Include="二叉搜索树.cpp" />
+    <ClCompile Include="线索建树.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h" />

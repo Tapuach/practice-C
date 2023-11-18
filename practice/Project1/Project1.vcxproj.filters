@@ -33,6 +33,18 @@
     <ClCompile Include="tree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="queue.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="线索建树.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉搜索树.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

@@ -1,16 +1,10 @@
-﻿  function.h
-  sdemo.cpp
+﻿  queue.cpp
+  stack.cpp
   tree.cpp
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(10,2): error C2065: “BiTree”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(10,9): error C2146: 语法错误: 缺少“;”(在标识符“pnew”的前面)
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(10,9): error C2065: “pnew”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(13,2): error C2065: “BiTree”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(13,9): error C2146: 语法错误: 缺少“;”(在标识符“tree”的前面)
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(13,9): error C2065: “tree”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,2): error C2065: “ptag_t”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,9): error C2146: 语法错误: 缺少“;”(在标识符“phead”的前面)
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,9): error C2065: “phead”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,23): error C2065: “ptail”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,37): error C2065: “listpnew”: 未声明的标识符
-E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(14,47): error C2065: “pcur”: 未声明的标识符
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(94,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(89,12): warning C4101: “pos”: 未引用的局部变量
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(89,9): warning C4101: “j”: 未引用的局部变量
+E:\桌面文件\数据库\C语言\practice\Project1\tree.cpp(89,6): warning C4101: “i”: 未引用的局部变量
+  线索建树.cpp
+E:\桌面文件\数据库\C语言\practice\Project1\线索建树.cpp(78,9): error C3688: 文本后缀“，p”无效；未找到文文本运算符或文本运算符模板“operator """"，p”
   正在生成代码...
