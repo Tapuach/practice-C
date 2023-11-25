@@ -131,15 +131,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="honework.cpp" />
+    <ClCompile Include="作业.cpp" />
     <ClCompile Include="func.c" />
     <ClCompile Include="form.cpp" />
     <ClCompile Include="main.c" />
     <ClCompile Include="queue.cpp" />
     <ClCompile Include="sdemo.cpp" />
     <ClCompile Include="stack.cpp" />
-    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="二叉树遍历.cpp" />
+    <ClCompile Include="串KMP.cpp" />
     <ClCompile Include="二叉搜索树.cpp" />
+    <ClCompile Include="哈希查找（散列）.cpp" />
+    <ClCompile Include="插入排序（冒泡、）.cpp" />
     <ClCompile Include="线索建树.cpp" />
   </ItemGroup>
   <ItemGroup>

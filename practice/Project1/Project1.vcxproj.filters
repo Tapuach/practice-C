@@ -27,10 +27,7 @@
     <ClCompile Include="form.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="honework.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="tree.cpp">
+    <ClCompile Include="作业.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stack.cpp">
@@ -43,6 +40,18 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="二叉搜索树.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="哈希查找（散列）.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="串KMP.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉树遍历.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="插入排序（冒泡、）.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
   </ItemGroup>
